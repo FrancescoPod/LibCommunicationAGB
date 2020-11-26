@@ -1,7 +1,7 @@
 # Introduction
 This is the library of Arduino Gui Builder program.
 You will be albe to create small GUI for your arduino easily without coding.
-* Download the zip file, extract the folder and put it in the libraries of Arduino IDEE.
+* Download the zip file, extract the folder and put it in the libraries of Arduino IDE.
 * There are 3 projects as examples where you can learn how to use the library.
 * This library is necessary to handle the communication between the board and your pc.
 # How to use the library
