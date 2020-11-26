@@ -15,10 +15,10 @@ Example, if you write in Arduino (after you have added this library) CodeA it wi
 There are 21 different formats. They follow the italian alphabet.
 CodeA, CodeB, CodeC, CodeD, CodeE...
 # Others methods
-* If you want to check if there are errors (because the communication may not work) you can use the method .debug(); It will display on the Serial Monitor the state of  the object it can be used no the MultiSender, SingleSender and Receiver.
-* When you have to add the data to a SingleSender or to a MultiSender you have to write .addData() it will take a string if it is a SingleSender, otherwise it will take an array of string.
-* When you want to send to the pc the value that you have just added to the senders you can call .flush() on them.
-* When you want to read what the pc has just sent to you, write .read() on a Receiver, it will return the message as a string.
+* If you want to check if there are errors (because the communication may not work) you can use the method .debug(); It will display on the Serial Monitor the state of  the object it can be called on a MultiSender, SingleSender and Receiver.
+* When you have to add the data to a SingleSender or to a MultiSender you have to write .addData() it will take a string (format) if it is a SingleSender, otherwise it will take an array of string (array of formats).
+* When you want to send to the pc the value that you have just added to the senders you can call .flush().
+* When you want to read what the pc has just sent to the board, write .read() on a Receiver, it will return the message as a string.
 # Info
 For any questions you can watch the reference in Arduino GUI Builder by clicking on Help.
 You can contatc me at: francesco.podesta03@gmail.com
