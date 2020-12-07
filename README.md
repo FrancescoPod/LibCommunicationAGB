@@ -20,7 +20,7 @@ CodeA, CodeB, CodeC, CodeD, CodeE...
 * When you want to send to the pc the value that you have just added to the senders you can call .flush().
 * When you want to read what the pc has just sent to the board, write .read() on a Receiver, it will return the message as a string.
 # Info
-For any questions you can watch the reference in Arduino GUI Builder by clicking on Help.
+For any questions you can watch the documentation on the website.
 You can contatc me at: francesco.podesta03@gmail.com
 I'm Francesco Podestà and I am a student of high school.
 # Have Fun!!
